@@ -1,9 +1,11 @@
+
 .mt10 {
   margin-top: 10px !important;
 }
 .mt35 {
   margin-top: 35px !important;
 }
+
 a,
 .a-return {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -78,9 +80,9 @@ img {
   font-weight: bold;
   font-style: italic;
   position: absolute;
-  top: 63.33333%;
+  top: 40.25%;
   left: 50%;
-  margin-left: -68px;
+  margin-left: -104px;
   white-space: nowrap;
 }
 @media screen and (max-width: 320px) {
@@ -246,18 +248,20 @@ img {
 .a-rule {
   background: #fff5e4;
   padding: 22px 15px 53px;
-} /*--- E 活动细则 ----*/
+}
 .a-rule-tit {
   width: 232px;
   height: 42px;
   background: url(../images/a_rule.png) no-repeat;
   background-size: 100%;
-  font-size: 2.2em;
+  font-size: 1.8em;
   color: #33333d;
   text-align: center;
   line-height: 34px;
   font-weight: normal;
   margin: 0 auto;
+  position:relative;
+  z-index:4;
 }
 .a-rule .a-intro {
   border-radius: 7px;
@@ -381,5 +385,39 @@ img {
 }
 .a-rule .a-blue .a-intro-list p {
   color: #23406a;
+}
+/* add */
+.mtf{
+  margin-top:-13px !important;
+  padding-top:18px !important;
+}
+.a-tab{
+  padding:0 20px;
+}
+.table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  border:0;
+  font-size:1.3em;
+
+}
+.table tr td{
+  padding-top:2px;
+}
+.table tr td,.table tr th{
+  text-align:center;
+}
+/*--- E 活动细则 ----*/
+.a-view {
+  font-size: 1.4em;
+  color:#d44404;
+}
+.a-view:link,.a-view:visited,.a-view:hover,.a-view:active{
+  color:#d44404;
+}
+.award-comming{
+  background:#fffae4;
 }
 /*# sourceMappingURL=award.css.map */
