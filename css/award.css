@@ -320,7 +320,7 @@ img {
   padding: 0 20px;
 }
 .a-rule .a-intro-list .a-intro-pre {
-  color: #d44404;
+  color: #d44404 !important;
   padding-top: 14px;
 }
 .a-rule .a-orange {
@@ -421,3 +421,367 @@ img {
   background:#fffae4;
 }
 /*# sourceMappingURL=award.css.map */
+/* S 小红花奖励第二期 */
+.a-rule-hy{
+	background:none;
+	width:auto;
+	line-height:35px;
+}
+.a-rule-hy i{
+	display:inline-block;
+	width:58px;
+	height:42px;
+}
+.a-rule-hy .rule-left{
+	background:url(../images/rule_left.png) no-repeat;
+	background-size:100%;
+}
+.a-rule-hy .rule-right{
+	background:url(../images/rule_right.png) no-repeat;
+	background-size:100%;
+}
+.a-rule-hy span{
+	display:inline-block;
+	background:#ffa200;
+	vertical-align:top;
+}
+/* E 小红花奖励第二期 */
+
+
+/* S model2 */
+.a-rule-m2{
+	background:#fbe27d;
+	padding: 22px 0 53px;
+}
+.a-rule-intro{
+	position:relative;
+	padding:0 5px;
+}
+.a-rule-intro .a-rule-txt{
+	position:absolute;
+	width:63.9436%;
+	left:27.0422%;
+	top:34.8%;
+	color:#33333d;
+}
+.a-rule-intro .a-rule-txt h1{
+	font-size:1.8em;
+	text-align:center;
+	line-height:1.1;
+	padding-bottom:16px;
+}
+.a-rule-intro .a-rule-txt span{
+	font-size:1.3em;
+}
+
+.a-list-style{
+	width:92.36%;
+	margin:0 auto;
+	padding-top:27px;
+}
+.a-list-tit{
+	width:146px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:6px;
+	color:#33333d;
+	margin:12px auto;
+	font-size:1.6em;
+}
+.a-list-forward{
+	padding:0 15px;
+	position:relative;
+}
+.a-list-con{
+	padding-bottom:2px;
+}
+.a-list-con .a-list-subtit{
+	display:block;
+	font-size:16px;
+	font-weight:bold;
+}
+.a-list-con li{
+	border-top: 1px dashed #c5882f;
+	padding:11px 0;
+}
+.a-list-con .a-list-txt{
+	display:block;
+	font-size:15px;
+}
+.a-list-con .a-list-rd{
+	display:inline-block;
+	min-width:18px;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+	background:#fadd68;
+	border-radius:50%;
+	margin-right:8px;
+	font-weight:normal;
+}
+.a-list-back,.a-list-forward{
+	border:1px solid #33333d;
+	min-height:100px;
+}
+.a-icon-man{
+	display:block;
+	width:58px;
+	height:71px;
+	position:absolute;
+	background:url(../images/s_p1.png) no-repeat;
+	background-size:100%;
+}
+.a-icon-stick{
+	display:block;
+	width:54px;
+	height:18px;
+	position:absolute;
+	background:url(../images/s_s2.png) no-repeat;
+	background-size:100%;
+}
+
+.a-list-styleG .a-list-back{
+	background:#aee16d;
+	margin:-7px 6px 0 -6px;
+}
+.a-list-styleG .a-list-forward{
+	background:#f2fde7;
+	margin:7px -6px -7px 6px;
+	
+}
+.a-list-styleG .a-list-tit{
+	background:#aee16d;
+}
+.a-list-styleG .a-icon-man{
+	right:4px;
+	top:-15px;
+}
+.a-list-styleG .a-icon-stick{
+	left:-18px;
+	bottom:2px;
+	transform: rotate(48deg);
+}
+
+
+.a-list-styleO{
+	padding-top:34px;
+}
+.a-list-styleO .a-list-back{
+	background:#faa668;
+	margin:-7px -6px 0 6px;
+}
+.a-list-styleO .a-list-forward{
+	background:#f2fde7;
+	margin:7px 6px -7px -6px;
+	
+}
+.a-list-styleO .a-list-tit{
+	background:#faa668;
+}
+.a-list-styleO .a-icon-man{
+	width:64px;
+	height:74px;
+	left:4px;
+	top:-15px;
+	background:url(../images/s_p2.png) no-repeat;
+	background-size:100%;
+    
+}
+.a-list-styleO .a-icon-stick{
+	left:50%;
+	margin-left:-27px;
+	bottom:-11px;
+	transform: rotate(0);
+}
+.a-list-styleO .a-list-forward:before {
+	content:"";
+	display:block; 
+	
+	border-width:0 16px 16px 0; 
+	border-color:#faa668 #faa668 #fbe27d #fbe27d; 
+	background:transparent;
+	border-style:solid; 
+	width:0;
+	position:absolute; 
+	bottom:-1px;
+	left:-1px;
+	z-index:3;
+	
+}
+.a-list-styleO .a-list-forward:after {
+	content:"";
+	display:block; 
+	border-width:0 17px 17px 0; 
+	border-color: #000 #000 #fbe27d #fbe27d; 
+	background:transparent;
+	border-style:solid; 
+	width:0; 
+	position:absolute; 
+	bottom:-1px;
+	left:-1px;
+	z-index:2;
+}
+
+
+.a-list-styleB{
+	padding-top:34px;
+	position:relative;
+}
+.a-list-styleB .a-list-back{
+	background:#9ad7fa;
+	margin:-7px 6px 0 -6px;
+}
+.a-list-styleB .a-list-forward{
+	background:#f2fde7;
+	margin:7px -6px -7px 6px;
+	
+}
+.a-list-styleB .a-list-tit{
+	background:#9ad7fa;
+}
+.a-list-styleB .a-icon-man{
+	right:-2px;
+	top:-15px;
+	transform: rotate(21.2deg);
+    
+}
+.a-list-styleB .a-icon-stick{
+	left:-18px;
+	bottom:2px;
+	transform: rotate(48deg);
+}
+
+
+.a-list-styleY{
+	padding-top:34px;
+}
+.a-list-styleY .a-list-back{
+	background:#ffcc00;
+	margin:-7px -6px 0 6px;
+}
+.a-list-styleY .a-list-forward{
+	background:#f2fde7;
+	margin:7px 6px -7px -6px;
+	
+}
+.a-list-styleY .a-list-tit{
+	background:#ffcc00;
+}
+.a-list-styleY .a-icon-man{
+	left:4px;
+	top:-15px;
+	width:64px;
+	height:74px;
+	left:0;
+	top:-12px;
+	background:url(../images/s_p2.png) no-repeat;
+	background-size:100%;
+    transform: rotate(-38deg);
+}
+.a-list-styleY .a-icon-stick{
+	right:20px;
+	bottom:-11px;
+	transform: rotate(-6deg);
+}
+.a-list-styleY .a-list-forward:before {
+	content:"";
+	display:block; 
+	border-width:0 16px 16px 0; 
+	border-color:#ffcc00 #ffcc00 #fbe27d #fbe27d; 
+	background:transparent;
+	border-style:solid; 
+	width:0;
+	position:absolute; 
+	bottom:-1px;
+	left:-1px;
+	z-index:3;
+}
+.a-list-styleY .a-list-forward:after {
+	content:"";
+	display:block; 
+	border-width:0 17px 17px 0; 
+	border-color: #000 #000 #fbe27d #fbe27d; 
+	background:transparent;
+	border-style:solid; 
+	width:0; 
+	position:absolute; 
+	bottom:-1px;
+	left:-1px;
+	z-index:2;
+}
+/* E model2 */
+
+/* S pop */
+#mask {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.65;
+  z-index: 1000;
+  /*display: none;*/
+}
+
+.pop-packet{
+	min-width: 300px;
+	max-width: 720px;
+	margin: 0 auto;
+	position:absolute;
+	top:14.0625%;
+	z-index:1001;
+}
+.pop-con{
+	position:relative;
+	animation:moveFromTop 1s ease;
+}
+@keyframes moveFromTop{
+	from { opacity:0;-webkit-transform: translateY(-100%);}
+	 			to{opacity:1}
+}
+.packet-close{
+	display:block;
+	width:34px;
+	margin:0 auto;
+	padding-top:24px;
+}
+.packet-txt{
+	display:block;
+	position:absolute;
+	left:50%;
+	top:56%;
+	margin-left:-125px;
+	color:#fdcd85;
+	font-size:1.6em;
+	width:250px;
+	text-indent:32px;
+}
+.packet-btn{
+	display:block;
+	width:250px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	background:#ffaa00;
+	border-radius:4px;
+	position:absolute;
+	left:50%;
+	top:76%;
+	margin-left:-125px;
+}
+.packet-btn:hover{
+	text-decoration:none;
+}
+@media screen and (max-width: 320px) {
+	.packet-txt{
+	  	top:54%;
+	}
+  
+	.packet-btn{
+	  	top:73%;
+	}
+}
+/* E pop */
